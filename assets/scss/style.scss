@@ -1,0 +1,40 @@
+/*=== abstracts css start === */
+@use 'abstracts/fonts';
+/*===// end of abstracts css === */
+
+
+/*=== base css start === */
+@use 'base/global';
+@use 'base/config';
+@use 'base/typography';
+@use 'base/utility';
+/*===// end of base css === */
+
+
+/*=== components css start === */
+@use 'components/buttons';
+@use 'components/tooltip';
+@use 'components/range';
+@use 'components/signIn';
+@use 'components/searchBy';
+@use 'components/aboutYourself';
+@use 'components/searchAndCards';
+@use 'components/searchByInstitute';
+@use 'components/searchByCourses';
+@use 'components/searchByInstructor';
+@use 'components/searchByCourseCategoryProgramming';
+@use 'components/uploaderProfile';
+@use 'components/aboutCourse';
+@use 'components/newslatter';
+@use 'components/testimonialAndFrequentCourse';
+@use 'components/startNowAndWe';
+@use 'components/courseContentsAndFaq';
+@use 'components/courseAddPriview';
+@use 'components/estimateEarning';
+/*===// end of components css === */
+
+/*=== layout css start === */
+@use 'layout/navbar';
+@use 'layout/banner';
+@use 'layout/footer';
+/*===// end of layout css === */

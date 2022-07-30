@@ -1,0 +1,34 @@
+// breadcrumb css
+.navigation{
+   padding-bottom: 30px;
+
+   .breadcrumb-item{
+      font-family: 'Karla', sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      color: #282E44;
+
+      @media screen and (max-width: 767px){
+         font-size: 12px;            
+      }
+
+      a{
+         font-family: 'Karla', sans-serif;
+         font-weight: 700;
+         font-size: 18px;
+         color: #282E44;
+
+         @media screen and (max-width: 767px){
+            font-size: 12px;            
+         }
+      }
+   }
+}
+
+.border-12{
+   border-radius: 12px;
+}
+
+.border-25{
+   border-radius: 25px;
+}
